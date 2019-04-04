@@ -1,0 +1,61 @@
+body {
+    background-color: darkgreen;
+  }
+
+
+  h1 {
+      color: white;
+  }
+
+
+
+  h1 {
+    text-align: center;
+  }
+
+.card {
+    height: 200px;
+    width: 10%;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 15px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 40px;
+
+}
+
+.card-top{
+    align-self: flex-start;
+}
+
+.card-bottom{
+    align-self: flex-end;
+    transform: rotate(180deg);
+}
+.hand {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center; 
+
+}
+
+.control{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+       
+}
+.hit {
+    display: flex;
+    padding:5px;
+}
+.stand {
+    display: flex;
+    padding:5px;
+}
+
+
